@@ -1,0 +1,30 @@
+body {
+  background-color: #FFF0E5;
+}
+
+.container__img {
+  background-image: url(https://images.unsplash.com/photo-1602595688238-9fffe12d5af3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1100&q=80);
+  height: 100%;
+  min-height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 0;
+  position: relative;
+}
+
+.container__box-shadov {
+  background-color: black;
+  opacity: 0.5;
+  height: 100%;
+  min-height: 400px;
+  width: 100%;
+}
+.title {
+  opacity: 1;
+  color: aqua;
+  position: absolute;
+  top: 42%;
+  left: 36%;
+  z-index: 1;
+}
